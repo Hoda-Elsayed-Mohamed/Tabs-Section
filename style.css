@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #f5abc9;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin:70px 40px;
+    width: 90vw;
+}
+.column{
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hdnicewallpapers.com%2FWalls%2FBig%2FNature%2520and%2520Landscape%2FBeautiful_Sunrising_Nature_Image.jpg&f=1&nofb=1');
+    min-height: 480px;
+    background-size: cover;
+    background-position: center;
+    min-width: 340px;
+    max-width: 1170px;
+    border-radius: 10px;
+    margin: 15px;
+    flex-basis: 50%;
+}
+.col2{
+    background: #ffe5e2;
+    overflow: hidden;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    width: 33.3%;
+    border: none;
+    font-size: 16px;
+    padding: 16px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s linear;
+   
+    
+}
+button:hover{
+    background: #e93b81;
+    color: white;
+}
+.p{
+    padding:32px 24px;
+}
+
+.blue{
+    background-color: #b6c9f0;
+}
+.disappear{
+    display: none;
+}
+@media screen and (max-width:990px) {
+    .container{
+        flex-wrap: wrap;
+    }
+}
